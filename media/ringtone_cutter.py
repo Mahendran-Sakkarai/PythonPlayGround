@@ -1,5 +1,7 @@
+"""
+A script to cut a ringtone from a video or audio file.
+"""
 import moviepy.editor as moviepy
-from pymediainfo import MediaInfo
 
 while True: 
     file_location = input("> Enter the location of the file: ")
